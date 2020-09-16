@@ -1,0 +1,49 @@
+@media screen and (min-width: 600px) {
+    header p {
+        width: 50%;
+        margin: auto;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .cards {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 10rem;
+    }
+/*
+    .card {
+        width: fit-content;
+    }
+
+    .supervisor {
+        margin-bottom: 0;
+    }
+
+    /* .calculator {
+        margin-left: 5%;
+    }  */
+
+    .card-col {
+        width: 100%;
+    }
+
+    .card-col .team-builder {
+        margin-bottom: 3rem;
+    }
+
+    .card-col .karma {
+        margin-top: 3rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        margin-bottom: 1.8rem;
+    }
+}

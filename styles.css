@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    width: 85%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-weight: 600;
+    color: hsl(233, 11%, 27%);
+    text-align: center;
+    font-size: 1.6em;
+}
+
+header h2 {
+    font-weight: 200;
+    color: hsl(222, 4%, 55%);
+    text-align: center;
+}
+
+header p {
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.cards {
+    margin-bottom: 10rem;
+}
+
+.supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.team-builder {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    /* margin-bottom: 1.8rem; */
+    background-color: white;
+    box-shadow: 0 5px 20px hsl(226, 30%, 86%);
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: hsl(233, 11%, 27%);
+    font-size: 1.3em;
+}
+
+.card p {
+    color: hsl(229, 6%, 66%);
+    font-size: 0.85rem;
+    line-height: 20px;
+    width: 85%;
+    margin-top: 3px;
+}
+
+.card-icon {
+    width: 20%;
+    margin-top: 1.7rem;
+    margin-left: 75%;
+}
